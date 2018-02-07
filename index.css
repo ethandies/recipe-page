@@ -1,0 +1,36 @@
+body {
+    background-image: url("images/myback.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width:100%; height:auto;
+  }
+  .title{
+      text-align: center;
+      font-family: Bookman Header;
+      font-size: 75px;
+      font-weight: bold;
+    }
+    .title{
+        text-align: center;
+        font-family: Bookman Header;
+        font-size: 75px;
+        font-weight: bold;
+      }
+  .dish{ text-align: center;
+        font-family: Oblique;
+        font-size: 45px;
+      }
+      .week{ text-align: center;
+            font-family: monospace ;
+            font-size: 45px;
+          }
+          .weak{ text-align: center;
+                font-family: fantasy ;
+                font-size: 49px;
+
+          }
+          @media only screen and (max-width:500px) {
+          .menu, .main, .right {
+            width:100%;
+          }
